@@ -5,7 +5,7 @@ This project creates a simple Express server that fetches a random fun fact from
 ## How It Works
 - The server exposes one endpoint: `/api/fun-fact`
 - When visited, it makes a request to:
-  https://uselessfacts.jsph.pl/api/v2/facts/random
+  https://catfact.ninja/fact
 - It extracts only the `text` field and returns:
   {
     "fact": "Some random fact..."
